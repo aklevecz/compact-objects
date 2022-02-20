@@ -1,0 +1,27 @@
+* {
+  overflow: hidden;
+}
+body {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: #000000;
+  margin: 0;
+  padding: 0;
+  overscroll-behavior: none;
+}
+button {
+  position: absolute;
+  left: 50%;
+  top: 5%;
+  font-size: 2rem;
+  z-index: 9;
+}
+
+video {
+  position: absolute;
+  z-index: -1;
+  visibility: hidden;
+}
+
+/*# sourceMappingURL=index.94c57eb9.css.map */
