@@ -1028,10 +1028,10 @@ class ThirdPersonCameraDemo {
 }
 let _APP = null;
 window.addEventListener("DOMContentLoaded", ()=>{
-    // document.getElementById("start").addEventListener("click", () => {
-    _APP = new ThirdPersonCameraDemo();
-    document.getElementById("start").remove();
-// });
+    document.getElementById("start").addEventListener("click", ()=>{
+        _APP = new ThirdPersonCameraDemo();
+        document.getElementById("start").remove();
+    });
 });
 function _LerpOverFrames(frames, t) {
     const s = new _three.Vector3(0, 0, 0);
